@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="deleteProject" prefHeight="400.0" prefWidth="748.0" style="-fx-background-color: #65db75;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.petushok.controller.user.ClientWindowController">
+   <children>
+      <TableView fx:id="tableViewProject" layoutX="140.0" prefHeight="238.0" prefWidth="609.0">
+        <columns>
+          <TableColumn fx:id="nameProjectTab" prefWidth="104.79998624324799" text="Имя проекта" />
+          <TableColumn fx:id="costTab" prefWidth="121.60004425048828" text="Цена" />
+            <TableColumn fx:id="timeTab" minWidth="0.0" prefWidth="130.39996337890625" text="Сроки" />
+            <TableColumn fx:id="aboutTab" prefWidth="245.60000610351562" text="О проекте" />
+        </columns>
+      </TableView>
+      <TextField fx:id="searchField" layoutX="156.0" layoutY="261.0" prefHeight="26.0" prefWidth="282.0" promptText="Имя проекта" style="-fx-background-color: #FFF; -fx-background-radius: 0px; -fx-border-color: #FFF;">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font></TextField>
+      <AnchorPane prefHeight="400.0" prefWidth="142.0" style="-fx-background-color: #ffe5ff;">
+         <children>
+            <Button fx:id="addProjectButton" layoutX="8.0" layoutY="50.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="126.0" style="-fx-background-color: #000000;" text="Создать проект" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="updateProjectButton" layoutX="8.0" layoutY="82.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="126.0" style="-fx-background-color: #000000;" text="Обновить" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="deleteProjectButton" layoutX="8.0" layoutY="114.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="126.0" style="-fx-background-color: #000000;" text="Удалить проект" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="signOutButton" layoutX="8.0" layoutY="365.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="126.0" style="-fx-background-color: #000000;" text="Выйти" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="searchButton" layoutX="8.0" layoutY="263.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="126.0" style="-fx-background-color: #000000;" text="Поиск" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="createDocButton" layoutX="8.0" layoutY="178.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="126.0" style="-fx-background-color: #000000;" text="Отчёт" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="profileButton" layoutX="8.0" layoutY="146.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="126.0" style="-fx-background-color: #000000;" text="Профиль" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="сonnectButton" layoutX="8.0" layoutY="210.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="126.0" style="-fx-background-color: #000000;" text="Присоединиться" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

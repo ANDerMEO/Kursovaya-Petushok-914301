@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.petushok.controller.user.ConnectController">
+   <children>
+      <TableView fx:id="tableViewProject" prefHeight="315.0" prefWidth="585.0">
+         <columns>
+            <TableColumn fx:id="idProjectTab" prefWidth="37.600035071372986" text="№" />
+            <TableColumn fx:id="nameProjectTab" prefWidth="142.39997100830078" text="Имя проекта" />
+            <TableColumn fx:id="costTab" prefWidth="121.60004425048828" text="Цена" />
+            <TableColumn fx:id="timeTab" minWidth="0.0" prefWidth="130.39996337890625" text="Сроки" />
+            <TableColumn fx:id="aboutTab" prefWidth="151.20000610351565" text="О проекте" />
+         </columns>
+      </TableView>
+      <Button fx:id="connectButton" layoutX="188.0" layoutY="339.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="142.0" style="-fx-background-color: #000000;" text="Присоединиться" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="27.0" layoutY="339.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="86.0" style="-fx-background-color: #000000;" text="Назад" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
